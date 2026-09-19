@@ -6,8 +6,6 @@ The platform uses a deep learning-based image classification model to analyze cr
 
 how to run this project
 
-Run karne ke liye
-
 Terminal 1 — Frontend
 
 npm install
@@ -20,7 +18,6 @@ python -m pip install -r requirements.txt
 python -m uvicorn main:app --reload --port 8000
 
 Terminal 3 — Existing Node backend
-Agar login/chat/database use karna hai:
 
 cd kisaan-backend
 npm install
