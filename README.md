@@ -1,4 +1,4 @@
-# 🌱 AgroCare – AI-Powered Smart Crop Advisory System
+# 🌱 AgroCare – AI-Powered Smart Crop Advisory System(https://smartcropadvisory.vercel.app/)
 
 AgroCare is an AI-powered smart agriculture platform designed to assist farmers in identifying crop diseases and making better crop-management decisions.
 
