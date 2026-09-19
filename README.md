@@ -1,8 +1,30 @@
-# 🌱 AgroCare – AI-Powered Smart Crop Advisory System(https://smartcropadvisory.vercel.app/)
+# 🌱 AgroCare – AI-Powered Smart Crop Advisory System
 
 AgroCare is an AI-powered smart agriculture platform designed to assist farmers in identifying crop diseases and making better crop-management decisions.
 
 The platform uses a deep learning-based image classification model to analyze crop leaf images and identify diseases affecting potato and tomato plants. It provides the detected disease, model confidence, immediate actions, and preventive measures through an easy-to-use web interface.
+
+how to run this project
+
+Run karne ke liye
+
+Terminal 1 — Frontend
+
+npm install
+npm run dev
+
+Terminal 2 — ML model
+
+cd ml_backend
+python -m pip install -r requirements.txt
+python -m uvicorn main:app --reload --port 8000
+
+Terminal 3 — Existing Node backend
+Agar login/chat/database use karna hai:
+
+cd kisaan-backend
+npm install
+npm start
 
 ## ✨ Key Features
 
